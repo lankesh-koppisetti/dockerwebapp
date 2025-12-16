@@ -23,7 +23,7 @@ pipeline {
             { 
                 sh 'mvn clean package' 
                 sh 'cp -r target Docker-app' 
-                //sh 'sudo $chmod  777  /var/run/docker.sock' //use if required .......
+                //sh 'sudo $chmod  777  /var/run/docker.sock' //use if required ..........
             } 
         } 
         
